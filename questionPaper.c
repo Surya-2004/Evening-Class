@@ -48,5 +48,5 @@ int main()
     kz=mz+nz;
     total_ways+=ncr(x-kx,s-kx)*ncr(y-ky,m-ky)*ncr(z-kz,c-kz);
     printf("%d",total_ways+1);
-
+    
 }
